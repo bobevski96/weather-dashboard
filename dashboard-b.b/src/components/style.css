@@ -1,0 +1,130 @@
+.main-card-div {
+  margin: 1rem;
+  margin-bottom: 2rem;
+  border: 2px solid rgb(227, 199, 199);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.second-card-div {
+  display: flex;
+  align-items: center;
+}
+
+.glob-conutry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  text-transform: capitalize;
+}
+p {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  padding-bottom: 3rem;
+}
+h3 {
+  padding-bottom: 20px;
+}
+
+.main-div {
+  position: relative;
+  margin: 0;
+}
+
+.input-value {
+  height: 30px;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+.btn {
+  height: 30px;
+  padding: 4px;
+  margin: 5px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.test-span {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.other-info {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 20px;
+}
+
+.icon-class {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@keyframes Animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+.rainy {
+  background: url("rainy-background.png") center/cover no-repeat;
+  animation: Animation 2s linear infinite;
+}
+
+.snow {
+  background: url("https://media.giphy.com/media/FoVi0LDjy1XS8/giphy.gif")
+    center/cover no-repeat;
+  animation: Animation 2s linear infinite;
+}
+.thounder {
+  background: url("https://media.giphy.com/media/xaZCqV4weJwHu/giphy.gif")
+    center/cover no-repeat;
+  animation: Animation 2s linear infinite;
+}
+.clowdy {
+  background: url("https://media.giphy.com/media/5HK4TiiBeLSZq/giphy.gif")
+    center/cover no-repeat;
+  animation: Animation 2s linear infinite;
+}
+.sunny {
+  background: url("https://media.giphy.com/media/xmW8F2ksN0KA0/giphy.gif")
+    center/cover no-repeat;
+  animation: Animation 2s linear infinite;
+}
+.rain {
+  background: url("https://media.giphy.com/media/tnPxFTth7qoDiw1rnm/giphy-downsized-large.gif")
+    center/cover no-repeat;
+  animation: Animation 2s linear infinite;
+}
+.weather-animation {
+    /* Add styles for the WeatherAnimation component here */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
